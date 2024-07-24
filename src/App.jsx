@@ -1,9 +1,14 @@
+import Move from "./components/Move"
+import Navbar from "./components/Navbar"
 
 
 const App = () => {
   return (
-    <div className="text-5xl">
-      app
+    <div>
+      <Navbar/>
+      <Move />
+    
+      
     </div>
   )
 }

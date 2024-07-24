@@ -1,5 +1,7 @@
 
 import Homecards from "./components/Homecards"
+import Joblistings from "./components/Joblistings"
+
 import Move from "./components/Move"
 import Navbar from "./components/Navbar"
 
@@ -10,6 +12,8 @@ const App = () => {
       <Navbar/>
       <Move />
       <Homecards/>
+      <Joblistings/>
+      
       
     
       
